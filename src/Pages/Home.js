@@ -1,14 +1,14 @@
 import React from "react";
-// import Carousel from '../Components/Carousel';
-// import Sections from '../Components/Sections/Sections';
-// import Sale from '../Components/Sale/Sale';
-// import FilBaby from '../Components/SectionsFils/Baby/FilBaby';
-// import FilBeauty from '../Components/SectionsFils/Beauty/FilBeauty';
-// import FilElectronics from '../Components/SectionsFils/Electronics/FilElectronics';
-// import FilFashion from '../Components/SectionsFils/Fashion/FilFashion';
-// import FilHomeKitchen from '../Components/SectionsFils/HomeKitchen/FilHomeKitchen';
-// import FilOfficeProducts from '../Components/SectionsFils/OfficeProducts/FilOfficeProducts';
-// import FilSupermarket from '../Components/SectionsFils/Supermarket/FilSupermarket';
+import Carousel from '../Components/Carousel';
+import Sections from '../Components/Sections/Sections';
+import Sale from '../Components/Sale/Sale';
+import FilBaby from '../Components/SectionsFils/Baby/FilBaby';
+import FilBeauty from '../Components/SectionsFils/Beauty/FilBeauty';
+import FilElectronics from '../Components/SectionsFils/Electronics/FilElectronics';
+import FilFashion from '../Components/SectionsFils/Fashion/FilFashion';
+import FilHomeKitchen from '../Components/SectionsFils/HomeKitchen/FilHomeKitchen';
+import FilOfficeProducts from '../Components/SectionsFils/OfficeProducts/FilOfficeProducts';
+import FilSupermarket from '../Components/SectionsFils/Supermarket/FilSupermarket';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from "mdbreact";
 import 'mdbreact/dist/css/mdb.css';
 
@@ -66,8 +66,7 @@ function Home(){
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>
-{/* 
-    
+
     <Sections />
     <Carousel />
 
@@ -93,7 +92,7 @@ function Home(){
     <Carousel />
 
     <FilSupermarket />
-    <Carousel /> */}
+    <Carousel />
 
 
     </MDBContainer>
